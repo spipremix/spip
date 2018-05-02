@@ -19,16 +19,7 @@
 /.project
 /.buildpath
 /.settings
-/ecrire/inc_connect.php3
-/ecrire/inc_meta_cache.php3
-
-/COPYING.txt
-/INSTALL.txt
 /ecrire/
-/htaccess.txt
-/index.php
 /plugins-dist/
 /prive/
-/spip.php
-/spip.png
 /squelettes-dist/
