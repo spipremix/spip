@@ -1,0 +1,38 @@
+{
+    "name": "spip/spip",
+    "type": "project",
+    "require": {
+        "php": "^5.4|^7",
+        "spip/composer-installer": "^0.1",
+        "spip/classic": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "license": "GPL-3.0-or-later",
+    "authors": [{
+        "name": "Arnaud Martin",
+        "email": "arno@rezo.net"
+    },{
+        "name": "Antoine Pitrou",
+        "email": "antoine@pitrou.net"
+    },{
+        "name": "Philippe Rivière",
+        "email": "fil@rezo.net"
+    },{
+        "name": "Emmanuel Saint-James",
+        "email": "esj@rezo.net"
+    }],
+    "config": {
+        "preferred-install": "dist",
+        "platform": {
+            "php": "5.4.45"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "Spip\\Composer\\Classic::postInstall"
+        ],
+        "post-update-cmd": [
+            "Spip\\Composer\\Classic::postUpdate"
+        ]
+    }
+}

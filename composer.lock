@@ -1,0 +1,111 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d38e8763ccceaaf4d86bccc41d17042d",
+    "packages": [
+        {
+            "name": "spip/classic",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://git-spip.lerebooteux.fr/spip/classic.git",
+                "reference": "dc33dfc010acb81acc500c864443dd070220c676"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/classic/spip-classic-dev-master-48be52.zip",
+                "reference": "dc33dfc010acb81acc500c864443dd070220c676",
+                "shasum": "eab35e2a1cbd3278b589e1eadceb58147966e8c7"
+            },
+            "require": {
+                "php": "^5.4|^7"
+            },
+            "type": "spip-classic",
+            "extra": {
+                "alias": {
+                    "dev-trunk": "3.3.x-dev"
+                }
+            },
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Arnaud Martin",
+                    "email": "arno@rezo.net"
+                },
+                {
+                    "name": "Antoine Pitrou",
+                    "email": "antoine@pitrou.net"
+                },
+                {
+                    "name": "Philippe Rivière",
+                    "email": "fil@rezo.net"
+                },
+                {
+                    "name": "Emmanuel Saint-James",
+                    "email": "esj@rezo.net"
+                }
+            ],
+            "description": "SPIP",
+            "time": "2018-04-30T14:19:52+00:00"
+        },
+        {
+            "name": "spip/composer-installer",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git-spip.lerebooteux.fr/spip/composer-installer.git",
+                "reference": "b62747543b2f5c01996d5d813fb3346116e1e41c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/composer-installer/spip-composer-installer-0.1-7e79db.zip",
+                "reference": "b62747543b2f5c01996d5d813fb3346116e1e41c",
+                "shasum": "6cdaaa504202dafa41b71a2384280d6e087dab67"
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "php": "^5.3|^7"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Spip\\Composer\\SpipInstallerPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spip\\Composer\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Hautot",
+                    "email": "james@rezo.net"
+                }
+            ],
+            "description": "SPIP Composer Installer Plugin",
+            "time": "2018-05-02T12:43:28+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "spip/classic": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^5.4|^7"
+    },
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "5.4.45"
+    }
+}
