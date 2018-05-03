@@ -4,8 +4,35 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dce27bdf73efc5233540276e9bb41422",
+    "content-hash": "88e8fd5ec53d38d643803128dc82bee9",
     "packages": [
+        {
+            "name": "spip/breves",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://git-spip.lerebooteux.fr/spip/breves.git",
+                "reference": "4ab0f541fe2b518d6904d3471aa9fc0502b487e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/breves/spip-breves-dev-master-f3fa65.zip",
+                "reference": "4ab0f541fe2b518d6904d3471aa9fc0502b487e7",
+                "shasum": "f26583b887bfd9e511ea47d842561fc91f102213"
+            },
+            "type": "spip-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Collectif SPIP",
+                    "email": "spip-dev@rezo.net"
+                }
+            ],
+            "description": "Gestion des brèves dans SPIP",
+            "time": "2018-05-03T10:12:58+00:00"
+        },
         {
             "name": "spip/cms",
             "version": "dev-master",
@@ -96,13 +123,16 @@
             "source": {
                 "type": "git",
                 "url": "https://git-spip.lerebooteux.fr/spip/dist.git",
-                "reference": "a618b421be378ad5c1483e80bd449604dcd35d82"
+                "reference": "cf2eb8ba99589b29227d22122af205298122e607"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer-spip.lerebooteux.fr/files/spip/dist/spip-dist-3.2.x-dev-2001be.zip",
-                "reference": "a618b421be378ad5c1483e80bd449604dcd35d82",
-                "shasum": "1eb422478eae9298526f11e7d1464bc94229501a"
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/dist/spip-dist-3.2.x-dev-9f80bd.zip",
+                "reference": "cf2eb8ba99589b29227d22122af205298122e607",
+                "shasum": "4c9fe438c1f8d8e85e3e8188435094d5842cd44d"
+            },
+            "require": {
+                "spip/breves": "dev-master"
             },
             "type": "spip-plugin",
             "license": [
@@ -115,7 +145,7 @@
                 }
             ],
             "description": "Squelettes par défaut de SPIP Classic",
-            "time": "2018-04-30T14:21:08+00:00"
+            "time": "2018-05-03T10:15:51+00:00"
         },
         {
             "name": "spip/ecrire",
