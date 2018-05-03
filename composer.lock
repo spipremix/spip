@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "88e8fd5ec53d38d643803128dc82bee9",
+    "content-hash": "0ef9a5a6e1cc126aae17a4c2f6f648ef",
     "packages": [
         {
             "name": "spip/breves",
@@ -147,6 +147,38 @@
             ],
             "description": "Squelettes par défaut de SPIP Classic",
             "time": "2018-05-03T12:55:44+00:00"
+        },
+        {
+            "name": "spip/ecran_securite",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://git-spip.lerebooteux.fr/spip/security.git",
+                "reference": "9ee4a3d3c23ba239904da90b7cc68c1fc471282a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/ecran_securite/spip-ecran_securite-dev-master-0dc107.zip",
+                "reference": "9ee4a3d3c23ba239904da90b7cc68c1fc471282a",
+                "shasum": "8f87bb396cfa03b7265590ed0ddc57560e40058a"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "ecran_securite.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Collectif SPIP",
+                    "email": "spip-dev@rezo.net"
+                }
+            ],
+            "description": "Protection du site par blocage de certaines attaques",
+            "time": "2018-04-30T14:21:08+00:00"
         },
         {
             "name": "spip/ecrire",

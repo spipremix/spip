@@ -9,7 +9,6 @@
 /IMG/
 !/IMG/.gitkeep
 /config/
-!/config/ecran_securite.php
 /local/
 !/local/.gitkeep
 /tmp/
