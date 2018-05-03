@@ -123,16 +123,17 @@
             "source": {
                 "type": "git",
                 "url": "https://git-spip.lerebooteux.fr/spip/dist.git",
-                "reference": "cf2eb8ba99589b29227d22122af205298122e607"
+                "reference": "ca87b7f18feca466474d6734d2e37a001bc1324e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer-spip.lerebooteux.fr/files/spip/dist/spip-dist-3.2.x-dev-9f80bd.zip",
-                "reference": "cf2eb8ba99589b29227d22122af205298122e607",
-                "shasum": "4c9fe438c1f8d8e85e3e8188435094d5842cd44d"
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/dist/spip-dist-3.2.x-dev-aee73d.zip",
+                "reference": "ca87b7f18feca466474d6734d2e37a001bc1324e",
+                "shasum": "85e94e12eceddcdecf626c0bd231616d3ccc7d58"
             },
             "require": {
-                "spip/breves": "dev-master"
+                "spip/breves": "dev-master",
+                "spip/sites": "dev-master"
             },
             "type": "spip-plugin",
             "license": [
@@ -145,7 +146,7 @@
                 }
             ],
             "description": "Squelettes par défaut de SPIP Classic",
-            "time": "2018-05-03T10:15:51+00:00"
+            "time": "2018-05-03T12:55:44+00:00"
         },
         {
             "name": "spip/ecrire",
@@ -291,6 +292,33 @@
                 }
             ],
             "time": "2018-05-02T14:01:55+00:00"
+        },
+        {
+            "name": "spip/sites",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://git-spip.lerebooteux.fr/spip/sites.git",
+                "reference": "2c44c34de92bc10b8fcd4480a101e45b9246fcfe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/sites/spip-sites-dev-master-d44184.zip",
+                "reference": "2c44c34de92bc10b8fcd4480a101e45b9246fcfe",
+                "shasum": "b9c6d8b5b303395189b6f7efd55703b9c64c161c"
+            },
+            "type": "spip-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Collectif SPIP",
+                    "email": "spip-dev@rezo.net"
+                }
+            ],
+            "description": "Gestion des sites et de la syndication dans SPIP",
+            "time": "2018-05-03T12:53:59+00:00"
         }
     ],
     "packages-dev": [],
