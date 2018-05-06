@@ -7,6 +7,33 @@
     "content-hash": "65f3ab77aa1b209d39c2285ddc9e507b",
     "packages": [
         {
+            "name": "spip/archiviste",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git-spip.lerebooteux.fr/spip/archiviste.git",
+                "reference": "ff65866e764ffefd3103aab68e31cbfffa60a1ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/archiviste/spip-archiviste-0.3.0-6639ef.zip",
+                "reference": "ff65866e764ffefd3103aab68e31cbfffa60a1ab",
+                "shasum": "aa33d13f9547d1dab17be70e7f393a522162799b"
+            },
+            "type": "spip-plugin",
+            "license": [
+                "GPL3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Collectif SPIP",
+                    "email": "spip-dev@rezo.net"
+                }
+            ],
+            "description": "Gérer des archives de fichiers Zip, Tar, ...",
+            "time": "2018-05-05T07:28:34+00:00"
+        },
+        {
             "name": "spip/breves",
             "version": "1.5.1",
             "source": {
@@ -119,20 +146,22 @@
         },
         {
             "name": "spip/dist",
-            "version": "3.3.0",
+            "version": "3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://git-spip.lerebooteux.fr/spip/dist.git",
-                "reference": "988ee832e03223f832691b09ba2d167676dea415"
+                "reference": "aeb627cbe2776de8033bb8b81167f6ecef2a01d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer-spip.lerebooteux.fr/files/spip/dist/spip-dist-3.3.0-8a2f48.zip",
-                "reference": "988ee832e03223f832691b09ba2d167676dea415",
-                "shasum": "003247145bd50df2e46b450af8e024e1cc33b58c"
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/dist/spip-dist-3.3.1-05d0f4.zip",
+                "reference": "aeb627cbe2776de8033bb8b81167f6ecef2a01d8",
+                "shasum": "afd22af570b615f0f8e92b9b87a8203cc52172a3"
             },
             "require": {
                 "spip/breves": "^1.5",
+                "spip/forum": "^1.12",
+                "spip/medias": "^2.21",
                 "spip/sites": "^2.0"
             },
             "type": "spip-plugin",
@@ -146,7 +175,7 @@
                 }
             ],
             "description": "Squelettes par défaut de SPIP Classic",
-            "time": "2018-05-03T14:32:06+00:00"
+            "time": "2018-05-06T07:59:50+00:00"
         },
         {
             "name": "spip/ecrire",
@@ -212,6 +241,63 @@
             ],
             "description": "Filtres de transformation d'image et de couleurs",
             "time": "2018-04-30T14:21:08+00:00"
+        },
+        {
+            "name": "spip/forum",
+            "version": "1.12.1",
+            "source": {
+                "type": "git",
+                "url": "https://git-spip.lerebooteux.fr/spip/forum.git",
+                "reference": "ce2ee7ae1c720712b7286e0c40e0384e4e2ed0c0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/forum/spip-forum-1.12.1-2c1714.zip",
+                "reference": "ce2ee7ae1c720712b7286e0c40e0384e4e2ed0c0",
+                "shasum": "9dfada35eaebe8daaaafbf19f43f445217847af9"
+            },
+            "type": "spip-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Collectif SPIP",
+                    "email": "spip-dev@rezo.net"
+                }
+            ],
+            "description": "Gestion des forums privés et publics dans SPIP",
+            "time": "2018-05-05T07:10:29+00:00"
+        },
+        {
+            "name": "spip/medias",
+            "version": "2.21.12",
+            "source": {
+                "type": "git",
+                "url": "https://git-spip.lerebooteux.fr/spip/medias.git",
+                "reference": "59ca74d1bc7d92907fe216dd3538e6fc1f55df7b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/medias/spip-medias-2.21.12-86d48d.zip",
+                "reference": "59ca74d1bc7d92907fe216dd3538e6fc1f55df7b",
+                "shasum": "3e88c6dfe8c41b5b1a2f1c1324b35feef029ab31"
+            },
+            "require": {
+                "spip/archiviste": "^0.3.0"
+            },
+            "type": "spip-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Collectif SPIP",
+                    "email": "spip-dev@rezo.net"
+                }
+            ],
+            "description": "Gestion des medias dans SPIP",
+            "time": "2018-05-06T07:58:17+00:00"
         },
         {
             "name": "spip/mots",
