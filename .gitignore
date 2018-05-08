@@ -9,6 +9,7 @@
 /IMG/
 !/IMG/.gitkeep
 /config/
+!/config/.gitkeep
 /local/
 !/local/.gitkeep
 /tmp/
