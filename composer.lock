@@ -4,25 +4,30 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "200f3db838152bc7813424cf2a7411fb",
+    "content-hash": "660965091a85e7bc1e2fc6ca79e3188c",
     "packages": [
         {
             "name": "spip/archiviste",
-            "version": "0.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://git-spip.lerebooteux.fr/spip/archiviste.git",
-                "reference": "ff65866e764ffefd3103aab68e31cbfffa60a1ab"
+                "reference": "4927c43b4f8252639ff15d89e0f93d92520d00ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer-spip.lerebooteux.fr/files/spip/archiviste/spip-archiviste-0.3.0-6639ef.zip",
-                "reference": "ff65866e764ffefd3103aab68e31cbfffa60a1ab",
-                "shasum": "aa33d13f9547d1dab17be70e7f393a522162799b"
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/archiviste/spip-archiviste-dev-master-c93420.zip",
+                "reference": "4927c43b4f8252639ff15d89e0f93d92520d00ca",
+                "shasum": "c183a0970480ae63bdead7245d24fca12a1219ce"
             },
             "type": "spip-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3.x-dev"
+                }
+            },
             "license": [
-                "GPL3.0"
+                "GPL-3.0-or-later"
             ],
             "authors": [
                 {
@@ -31,21 +36,21 @@
                 }
             ],
             "description": "Gérer des archives de fichiers Zip, Tar, ...",
-            "time": "2018-05-05T07:28:34+00:00"
+            "time": "2018-06-07T21:41:37+00:00"
         },
         {
             "name": "spip/breves",
-            "version": "1.5.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://git-spip.lerebooteux.fr/spip/breves.git",
-                "reference": "4ab0f541fe2b518d6904d3471aa9fc0502b487e7"
+                "reference": "943c753bd45e92688be73774e5896ba80ee7b91e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer-spip.lerebooteux.fr/files/spip/breves/spip-breves-1.5.1-f3fa65.zip",
-                "reference": "4ab0f541fe2b518d6904d3471aa9fc0502b487e7",
-                "shasum": "4b8123dbcc9fdf58db8dd9de989f177eae46d5f1"
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/breves/spip-breves-dev-master-f7d4d2.zip",
+                "reference": "943c753bd45e92688be73774e5896ba80ee7b91e",
+                "shasum": "f787d74be6001f1916f1937e401d54937e165560"
             },
             "type": "spip-plugin",
             "license": [
@@ -58,21 +63,26 @@
                 }
             ],
             "description": "Gestion des brèves dans SPIP",
-            "time": "2018-05-03T10:12:58+00:00"
+            "time": "2018-06-07T20:56:49+00:00"
         },
         {
             "name": "spip/cms",
-            "version": "3.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://git-spip.lerebooteux.fr/spip/cms.git",
-                "reference": "153ab57243c2a59b05f125176d9ebf3cec04d786"
+                "reference": "ea32b27c09207d19a8f8bb4bdafd72128cb5dc9e"
             },
             "require": {
-                "spip/ecrire": "^3.3",
-                "spip/prive": "^3.3"
+                "spip/ecrire": "dev-master",
+                "spip/prive": "dev-master"
             },
             "type": "metapackage",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
             "license": [
                 "GPL-3.0-or-later"
             ],
@@ -94,7 +104,7 @@
                     "email": "esj@rezo.net"
                 }
             ],
-            "time": "2018-05-03T14:27:19+00:00"
+            "time": "2018-06-08T06:31:54+00:00"
         },
         {
             "name": "spip/composer-installer",
@@ -146,25 +156,30 @@
         },
         {
             "name": "spip/dist",
-            "version": "3.3.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://git-spip.lerebooteux.fr/spip/dist.git",
-                "reference": "aeb627cbe2776de8033bb8b81167f6ecef2a01d8"
+                "reference": "0a4d445c3d19335d06132829b87bd571c47fcc58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer-spip.lerebooteux.fr/files/spip/dist/spip-dist-3.3.1-05d0f4.zip",
-                "reference": "aeb627cbe2776de8033bb8b81167f6ecef2a01d8",
-                "shasum": "afd22af570b615f0f8e92b9b87a8203cc52172a3"
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/dist/spip-dist-dev-master-92165e.zip",
+                "reference": "0a4d445c3d19335d06132829b87bd571c47fcc58",
+                "shasum": "3e21f7bb6192dd4d476d83b03d16a08204766c34"
             },
             "require": {
-                "spip/breves": "^1.5",
-                "spip/forum": "^1.12",
-                "spip/medias": "^2.21",
-                "spip/sites": "^2.0"
+                "spip/breves": "dev-master",
+                "spip/forum": "dev-master",
+                "spip/medias": "dev-master",
+                "spip/sites": "dev-master"
             },
             "type": "spip-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
             "license": [
                 "GPL3"
             ],
@@ -175,53 +190,21 @@
                 }
             ],
             "description": "Squelettes par défaut de SPIP Classic",
-            "time": "2018-05-06T07:59:50+00:00"
-        },
-        {
-            "name": "spip/ecran_securite",
-            "version": "1.3.6",
-            "source": {
-                "type": "git",
-                "url": "https://git-spip.lerebooteux.fr/spip/security.git",
-                "reference": "dc88636b0d4413d5b76a168d96bb48fb480eaaad"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://composer-spip.lerebooteux.fr/files/spip/ecran_securite/spip-ecran_securite-1.3.6-c6c896.zip",
-                "reference": "dc88636b0d4413d5b76a168d96bb48fb480eaaad",
-                "shasum": "8f87bb396cfa03b7265590ed0ddc57560e40058a"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "ecran_securite.php"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Collectif SPIP",
-                    "email": "spip-dev@rezo.net"
-                }
-            ],
-            "description": "Protection du site par blocage de certaines attaques",
-            "time": "2018-04-30T14:21:08+00:00"
+            "time": "2018-06-07T21:50:40+00:00"
         },
         {
             "name": "spip/ecrire",
-            "version": "3.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://git-spip.lerebooteux.fr/spip/ecrire.git",
-                "reference": "ca1c016b0b1797a3635dbb8fddbd14c5c12daa83"
+                "reference": "7e693bc4adb17c08dbb4f614c6cd58be93f7a1d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer-spip.lerebooteux.fr/files/spip/ecrire/spip-ecrire-3.3.0-15fb7a.zip",
-                "reference": "ca1c016b0b1797a3635dbb8fddbd14c5c12daa83",
-                "shasum": "17181d1f6e52bd9b3143d61574470abda93c5dda"
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/ecrire/spip-ecrire-dev-master-95918b.zip",
+                "reference": "7e693bc4adb17c08dbb4f614c6cd58be93f7a1d2",
+                "shasum": "a4e652b820ab14d0a7b35af438be90ef0dd00d58"
             },
             "type": "spip-ecrire",
             "license": [
@@ -245,52 +228,25 @@
                     "email": "esj@rezo.net"
                 }
             ],
-            "time": "2018-05-03T13:24:38+00:00"
-        },
-        {
-            "name": "spip/filtres_images",
-            "version": "2.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://git-spip.lerebooteux.fr/spip/filtres_images.git",
-                "reference": "af79e8ab808a0651aea03e43aa89cf528aea0a11"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://composer-spip.lerebooteux.fr/files/spip/filtres_images/spip-filtres_images-2.1.1-625ec7.zip",
-                "reference": "af79e8ab808a0651aea03e43aa89cf528aea0a11",
-                "shasum": "d6340367059367b37b78897a7dcc8e0e43c57211"
-            },
-            "type": "spip-plugin",
-            "license": [
-                "GPL3"
-            ],
-            "authors": [
-                {
-                    "name": "Collectif SPIP",
-                    "email": "spip-dev@rezo.net"
-                }
-            ],
-            "description": "Filtres de transformation d'image et de couleurs",
-            "time": "2018-04-30T14:21:08+00:00"
+            "time": "2018-06-07T06:41:19+00:00"
         },
         {
             "name": "spip/forum",
-            "version": "1.12.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://git-spip.lerebooteux.fr/spip/forum.git",
-                "reference": "ce2ee7ae1c720712b7286e0c40e0384e4e2ed0c0"
+                "reference": "58357a961442fe6750625eb93c6c8c057b6d2dfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer-spip.lerebooteux.fr/files/spip/forum/spip-forum-1.12.1-2c1714.zip",
-                "reference": "ce2ee7ae1c720712b7286e0c40e0384e4e2ed0c0",
-                "shasum": "9dfada35eaebe8daaaafbf19f43f445217847af9"
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/forum/spip-forum-dev-master-013601.zip",
+                "reference": "58357a961442fe6750625eb93c6c8c057b6d2dfd",
+                "shasum": "82dbe00456ee1a808cfad5e449f6b6db99008d6a"
             },
             "type": "spip-plugin",
             "license": [
-                "MIT"
+                "GPL-3.0-or-later"
             ],
             "authors": [
                 {
@@ -299,28 +255,60 @@
                 }
             ],
             "description": "Gestion des forums privés et publics dans SPIP",
-            "time": "2018-05-05T07:10:29+00:00"
+            "time": "2018-06-07T17:01:02+00:00"
         },
         {
-            "name": "spip/medias",
-            "version": "2.21.12",
+            "name": "spip/images",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://git-spip.lerebooteux.fr/spip/medias.git",
-                "reference": "59ca74d1bc7d92907fe216dd3538e6fc1f55df7b"
+                "url": "https://git-spip.lerebooteux.fr/spip/images.git",
+                "reference": "f60170cfca5703b910facaa13470c8f1d593c368"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer-spip.lerebooteux.fr/files/spip/medias/spip-medias-2.21.12-86d48d.zip",
-                "reference": "59ca74d1bc7d92907fe216dd3538e6fc1f55df7b",
-                "shasum": "3e88c6dfe8c41b5b1a2f1c1324b35feef029ab31"
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/images/spip-images-dev-master-72a0ec.zip",
+                "reference": "f60170cfca5703b910facaa13470c8f1d593c368",
+                "shasum": "b217dbf84bc8a823377057a8999a1f0c55cb3dca"
+            },
+            "type": "spip-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1.x-dev"
+                }
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Collectif SPIP",
+                    "email": "spip-dev@rezo.net"
+                }
+            ],
+            "description": "Filtres de transformation d'image et de couleurs",
+            "time": "2018-06-08T06:18:26+00:00"
+        },
+        {
+            "name": "spip/medias",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://git-spip.lerebooteux.fr/spip/medias.git",
+                "reference": "ebeffced76cbc2d57a60a5b666ceb1646a5f7479"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/medias/spip-medias-dev-master-2139ff.zip",
+                "reference": "ebeffced76cbc2d57a60a5b666ceb1646a5f7479",
+                "shasum": "23e121dfaa08bd2ea8b08d50f25af6bc38f49d65"
             },
             "require": {
                 "spip/archiviste": "^0.3.0"
             },
             "type": "spip-plugin",
             "license": [
-                "MIT"
+                "GPL-3.0-or-later"
             ],
             "authors": [
                 {
@@ -329,25 +317,30 @@
                 }
             ],
             "description": "Gestion des medias dans SPIP",
-            "time": "2018-05-06T07:58:17+00:00"
+            "time": "2018-06-07T21:47:50+00:00"
         },
         {
             "name": "spip/mots",
-            "version": "2.9.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://git-spip.lerebooteux.fr/spip/mots.git",
-                "reference": "b64512323d8242217ca35ae600f302cf9e476918"
+                "reference": "650e2cc820b4846ddb427635eee1326252ac37c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer-spip.lerebooteux.fr/files/spip/mots/spip-mots-2.9.0-c1d3df.zip",
-                "reference": "b64512323d8242217ca35ae600f302cf9e476918",
-                "shasum": "a899ee717c23bcb375e7fc210168fe3b4114ba0b"
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/mots/spip-mots-dev-master-839a87.zip",
+                "reference": "650e2cc820b4846ddb427635eee1326252ac37c1",
+                "shasum": "484638e0b361c4ca3e08367cade6a9a7aa226ea1"
             },
             "type": "spip-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.9.x-dev"
+                }
+            },
             "license": [
-                "GPL3"
+                "GPL-3.0-or-later"
             ],
             "authors": [
                 {
@@ -355,26 +348,31 @@
                     "email": "spip-dev@rezo.net"
                 }
             ],
-            "description": "Gestion des mots et groupes de mots",
-            "time": "2018-04-30T14:21:08+00:00"
+            "description": "Gestion des mots et groupes de mots dans SPIP",
+            "time": "2018-06-08T05:45:56+00:00"
         },
         {
             "name": "spip/organiseur",
-            "version": "1.3.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://git-spip.lerebooteux.fr/spip/organiseur.git",
-                "reference": "323186d9218917155ab83c245cc5f24a3034f89e"
+                "reference": "13c7fe665af212307c8a33d4c2460946495924ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer-spip.lerebooteux.fr/files/spip/organiseur/spip-organiseur-1.3.1-9a6c23.zip",
-                "reference": "323186d9218917155ab83c245cc5f24a3034f89e",
-                "shasum": "9a9a58aeec74f932ac80b26c837cf4004dd13fa0"
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/organiseur/spip-organiseur-dev-master-d5356c.zip",
+                "reference": "13c7fe665af212307c8a33d4c2460946495924ae",
+                "shasum": "003a5a8293c9cc110a5c38f7a2db5203f871f33f"
             },
             "type": "spip-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                }
+            },
             "license": [
-                "GPL3"
+                "GPL-3.0-or-later"
             ],
             "authors": [
                 {
@@ -383,21 +381,21 @@
                 }
             ],
             "description": "Outils de travail éditorial en groupe",
-            "time": "2018-04-30T14:21:08+00:00"
+            "time": "2018-06-08T06:03:12+00:00"
         },
         {
             "name": "spip/prive",
-            "version": "3.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://git-spip.lerebooteux.fr/spip/prive.git",
-                "reference": "f2d7b3ad9f391661a9d528472194dd7a4ec73c91"
+                "reference": "7175b9819b32e594674367995b407c1511ab0de4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer-spip.lerebooteux.fr/files/spip/prive/spip-prive-3.3.0-0a0afc.zip",
-                "reference": "f2d7b3ad9f391661a9d528472194dd7a4ec73c91",
-                "shasum": "933f0a95f45fa34d5f246f5f2caa4ceb6d09fad4"
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/prive/spip-prive-dev-master-b2d17c.zip",
+                "reference": "7175b9819b32e594674367995b407c1511ab0de4",
+                "shasum": "82473cb72536a013c54e2f5bc23ae4262dbcf65d"
             },
             "type": "spip-prive",
             "license": [
@@ -409,23 +407,28 @@
                     "email": "james@rezo.net"
                 }
             ],
-            "time": "2018-05-02T14:01:55+00:00"
+            "time": "2018-06-07T11:28:40+00:00"
         },
         {
-            "name": "spip/sites",
-            "version": "2.0.0",
+            "name": "spip/security",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://git-spip.lerebooteux.fr/spip/sites.git",
-                "reference": "2c44c34de92bc10b8fcd4480a101e45b9246fcfe"
+                "url": "https://git-spip.lerebooteux.fr/spip/security.git",
+                "reference": "969ddb7f9786973359b8d76ed35cbcbdf494c3a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer-spip.lerebooteux.fr/files/spip/sites/spip-sites-2.0.0-d44184.zip",
-                "reference": "2c44c34de92bc10b8fcd4480a101e45b9246fcfe",
-                "shasum": "45164901562bc6f09cb76785c96269a36b130fb0"
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/security/spip-security-dev-master-d682ec.zip",
+                "reference": "969ddb7f9786973359b8d76ed35cbcbdf494c3a1",
+                "shasum": "128d08556269ac420cb5a5a205a9337f92ad860b"
             },
-            "type": "spip-plugin",
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "ecran_securite.php"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -435,14 +438,47 @@
                     "email": "spip-dev@rezo.net"
                 }
             ],
+            "description": "Protection du site par blocage de certaines attaques",
+            "time": "2018-06-07T11:36:34+00:00"
+        },
+        {
+            "name": "spip/sites",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://git-spip.lerebooteux.fr/spip/sites.git",
+                "reference": "d9df96984a1309d9ee406ded2980ef369fb6b2de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/sites/spip-sites-dev-master-212fe3.zip",
+                "reference": "d9df96984a1309d9ee406ded2980ef369fb6b2de",
+                "shasum": "c3498045d18c2d4de4ec5706100d19de45427366"
+            },
+            "type": "spip-plugin",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Collectif SPIP",
+                    "email": "spip-dev@rezo.net"
+                }
+            ],
             "description": "Gestion des sites et de la syndication dans SPIP",
-            "time": "2018-05-03T12:53:59+00:00"
+            "time": "2018-06-07T17:12:30+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "spip/cms": 20,
+        "spip/mots": 20,
+        "spip/organiseur": 20,
+        "spip/images": 20,
+        "spip/dist": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

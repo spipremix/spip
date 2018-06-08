@@ -8,12 +8,12 @@
     "require": {
         "php": "^5.4|^7",
         "spip/composer-installer": "^0.2",
-        "spip/cms": "^3.3",
-        "spip/mots": "^2.9",
-        "spip/organiseur": "^1.3",
-        "spip/filtres_images": "^2.1",
-        "spip/ecran_securite": "*",
-        "spip/dist": "^3.3"
+        "spip/cms": "dev-master",
+        "spip/mots": "dev-master",
+        "spip/organiseur": "dev-master",
+        "spip/images": "dev-master",
+        "spip/security": "*",
+        "spip/dist": "dev-master"
     },
     "license": "GPL-3.0-or-later",
     "authors": [{
@@ -35,13 +35,17 @@
             "php": "5.4.45"
         }
     },
+    "minimum-stability": "dev",
     "extra": {
+        "branch-alias": {
+            "dev-master": "3.3.x-dev"
+        },
         "spip": {
             "template": "spip/dist",
             "extensions": [
                 "spip/mots",
                 "spip/organiseur",
-                "spip/filtres_images"
+                "spip/images"
             ]
         }
     }
