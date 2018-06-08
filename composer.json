@@ -6,13 +6,13 @@
         "url": "https://composer-spip.lerebooteux.fr"
     }],
     "require": {
-        "php": "^5.4|^7",
+        "php": "^5.3",
         "spip/composer-installer": "^0.2",
-        "spip/cms": "^3.2",
-        "spip/mots": "2.8.*",
-        "spip/organiseur": "1.2.*",
-        "spip/images": "2.0.*",
-        "spip/dist": "^3.2"
+        "spip/cms": "3.1.*",
+        "spip/mots": "2.7.*",
+        "spip/organiseur": "1.0.*",
+        "spip/images": "1.2.*",
+        "spip/dist": "3.1.*"
     },
     "license": "GPL-3.0-or-later",
     "authors": [{
@@ -31,7 +31,7 @@
     "config": {
         "preferred-install": "dist",
         "platform": {
-            "php": "5.4.45"
+            "php": "5.3.29"
         }
     },
     "extra": {
