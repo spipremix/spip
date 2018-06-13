@@ -6,7 +6,7 @@
         "url": "https://composer-spip.lerebooteux.fr"
     }],
     "require": {
-        "php": "^5.3 <7.2",
+        "php": "5.3 - 7.1",
         "spip/composer-installer": "^0.2",
         "spip/cms": "3.1.*",
         "spip/mots": "2.7.*",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac587321f5a54111c8e77c553c8e5d06",
+    "content-hash": "0ca204563e261f4ef79f05cf4ca0384e",
     "packages": [
         {
             "name": "spip/breves",
@@ -384,7 +384,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^5.3 <7.2"
+        "php": "5.3 - 7.1"
     },
     "platform-dev": [],
     "platform-overrides": {
