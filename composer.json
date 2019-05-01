@@ -1,19 +1,32 @@
 {
     "name": "spip/spip",
     "type": "project",
-    "repositories": [{
-        "type": "composer",
-        "url": "https://composer-spip.lerebooteux.fr"
-    }],
     "require": {
         "php": "^5.4|^7",
-        "spip/composer-installer": "^0.2",
+        "spip/composer-installer": "^0.3.0",
         "spip/cms": "dev-master",
         "spip/mots": "dev-master",
         "spip/organiseur": "dev-master",
         "spip/images": "dev-master",
         "spip/security": "*",
-        "spip/dist": "dev-master"
+        "spip/dist": "dev-master",
+        "spip/aide": "dev-master",
+        "spip/compagnon": "dev-master",
+        "spip/compresseur": "dev-master",
+        "spip/dump": "dev-master",
+        "spip/jqueryui": "dev-master",
+        "spip/mediabox": "dev-master",
+        "spip/petitions": "dev-master",
+        "spip/plan": "dev-master",
+        "spip/porte-plume": "dev-master",
+        "spip/revisions": "dev-master",
+        "spip/safehtml": "dev-master",
+        "spip/squelettes-par-rubrique": "dev-master",
+        "spip/stats": "dev-master",
+        "spip/svp": "^1.6@dev",
+        "spip/tw": "dev-master",
+        "spip/urls": "dev-master",
+        "spip/vertebres": "dev-master"
     },
     "license": "GPL-3.0-or-later",
     "authors": [{
@@ -45,8 +58,38 @@
             "extensions": [
                 "spip/mots",
                 "spip/organiseur",
-                "spip/images"
+                "spip/images",
+                "spip/archiviste",
+                "spip/breves",
+                "spip/forum",
+                "spip/medias",
+                "spip/sites",
+                "spip/aide",
+                "spip/compagnon",
+                "spip/compresseur",
+                "spip/dump",
+                "spip/jqueryui",
+                "spip/mediabox",
+                "spip/petitions",
+                "spip/plan",
+                "spip/porte-plume",
+                "spip/revisions",
+                "spip/safehtml",
+                "spip/squelettes-par-rubrique",
+                "spip/stats",
+                "spip/svp",
+                "spip/tw",
+                "spip/urls",
+                "spip/vertebres"
             ]
         }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "Spip\\Composer\\Security::postInstall"
+        ],
+        "post-update-cmd": [
+            "Spip\\Composer\\Security::postUpdate"
+        ]
     }
 }
